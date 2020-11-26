@@ -1,0 +1,58 @@
+1. 서울대학교 수의대학과 동물병원 : http://vmth.snu.ac.kr/index.do
+-> 슬라이드 참조(동물보호소 사진 슬라이드) header & nav underArea
+    header & nav 깔끔
+
+2. 충남대학교 동물병원 : https://vetmed.cnu.ac.kr/cnuah/index.do
+-> 진료분야가 잘 설명되어 있음. 그 외는 그닥
+
+3. 분당밝은아이동물병원 : http://www.brighteyeah.com/
+-> 중간 안내 섹션 참고 
+
+4. 경북대학교 수의과대학 : http://vmc.knu.ac.kr/index.php
+-> 장점 x
+
+5. 우리펫 : http://www.xn--oy2b11v46j.com/
+-> 동물 프로필
+    상업적 사이트라는 차이점
+
+6. 반려동물소셜커머스 : https://www.mypetplus.co.kr/
+-> nav 지역별 보호소, 마펫몰
+	
+7. 로얄동물메디컬센터 : http://www.royalamc.com/main.php
+->  소식, 게시판 참고
+
+8. 동물메디컬센터w : http://www.animalw.co.kr/main.php
+-> 페이지 별 레이아웃 참고
+
+9. 바우라움 예약 : http://www.bowraum.com/index.html
+-> footer, 이용안내, 예약
+
+10. 이리온 동물 병원 : http://www.irion.co.kr/
+-> 이용 안내 footer header 참고
+
+11. https://dmanimal.co.kr/main
+-> 참고
+홈페이지
+
+정체성 -> 보호소와 협의하여 정보공유 및 생명을 통해서 비상업적 추구(책임비 제외)
+              확실한 분양자 인증을 거쳐야 함.
+
+수익성 -> 동물용품 판매 및 광고, 후원 + 추가해야함
+
+
+
+layout
+전체적으로 하얀 배경
+전체 레이아웃 정하기(어느 곳을 참고할 것인가) 
+1. Header + nav -> https://www.themelocation.com/best-html5-practices/ 각 메뉴는 크게
+2. slide -> http://vmth.snu.ac.kr/index.do
+3. section -> nav-menu 사이트 이동 시 -> http://www.irion.co.kr/page/?pid=device
+4. footer -> 9 or 10
+
+form
+
+1. 전국 7도 한 개씩만 보호소 선정 후 지역별 안내 (운영시간 / 찾아오시는 길 / 예약 안내)
+2. 조정우 ♥ 황유정 프로필(사진 / 이름 / 성별 / 나이(추정))
+3. 회원가입 / 로그인 / 실시간 문의 / 이용자 인증(how)
+4. nav (지역별 안내 / 사이트 소개 / 소식(news) / 후원안내 / 동물 안내 / 동물용품 / 제휴 병원
+5. 게시판 

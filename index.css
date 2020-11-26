@@ -1,0 +1,762 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header-wrap{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    border-bottom: 1px solid;
+}
+
+.header-wrap .header-icon{
+    display: flex;
+    align-items: center;
+    margin-top: -15px;
+    margin-bottom: 5px;
+    padding-left: 25px;
+}
+
+.header-icon a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.header-icon a{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.header-icon a:link{
+    color: black;
+    text-decoration: none;
+}
+
+.header-icon a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+
+.header-function i{
+    width: 30px;
+    height: 24px;
+    padding-right: 30px;
+    font-size: 30px;
+    color: black;
+}
+
+.header-menu ul{
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding-inline-start: 0;
+}
+
+.header-menu ul li{
+    margin-right: 30px;
+}
+
+.dropdown{
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown .dropdown-content{
+    display: none;
+}
+
+.header-function{
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+    height: 53px;
+}
+
+.dropdown-content{
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+    min-width: 160px;
+    background-color: #f9f9f9a1;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    color: black;
+    padding: 16px 20px;
+    display: block;
+}
+
+.section-wrap{
+    margin: 0 14vw;
+    margin-top: 83vh;
+    margin-bottom: 90px;
+}
+
+.section-card{
+    display: flex;
+}
+
+.card_img{
+    resize: auto;
+    width: 282px;
+    height: 196px;
+    border-bottom: solid 1px #00000047;
+}
+
+.card_box{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.section-imgLine1{
+    margin-top: 10px;
+    display: flex;
+}
+
+.section-imgLine1 .card{
+    border: 1px solid #0000001a;
+    width: 282px;
+    height: 240.35px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.section-imgLine2{
+    display: flex;
+}
+
+.section-imgLine2 .card{
+    border: 1px solid #0000001a;
+    width: 282px;
+    height: 240.35px;
+    margin-right: 10px;
+}
+
+.section-header h1{
+    margin-block-end: 0;
+}
+
+.section-header h2{
+    margin-block-start: 10px;
+}
+
+.notice-wrap{
+    background-color: #eee;
+    height: 475px;
+}
+
+.notice-header{
+    margin: 0 14vw;
+    height: 25%;
+}
+
+.notice-header h1{
+    margin-block-end: 0;
+    padding-top: 35px;
+}
+
+.notice-box{
+    height: 45%;
+    margin-top: 50px;
+}
+
+.notice-box .box-wrap{
+    height: 190px;
+    margin: 0px 13vw;
+    border: 1px solid #0000002b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.notice-text{
+    margin-right: 40px;
+}
+
+.notice-day{
+    text-align: center;
+    border: 1px solid;
+    height: 110px;
+    width: 110px;
+    margin-left: 35px;
+}
+
+.month{
+    line-height: 75px;
+    font-size: 34px;
+    font-weight: 700;
+    color: #5d3d0c;
+}
+
+.date{
+    font-size: 10px;
+    color: #999;
+}
+
+.notice-dot{
+    margin: 0 13vw;
+    margin-top: -8px;
+    text-align: center;
+    line-height: 2vw;
+}
+
+.notice-dot li{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.notice-dot li:hover{
+    color: black;
+}
+
+.dot{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: #00000069;
+}
+
+.top-color{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    margin-top: -50px;
+}
+
+.contact-text{
+    margin-top: 52px;
+    color:#90caf9
+}
+
+.closed{
+    margin-top: 8px;
+}
+
+.consulting{
+    margin-top: 8px;
+}
+
+
+.contact-here{
+    font-size: 14px;
+}
+
+.contact-icon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.top-color .txt{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.bottom-color{
+    text-align: center;
+    background: #000000b8;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
+
+.footer-address{
+    display: flex;
+}
+
+.footer-contact{
+    margin-right: 90px;
+}
+
+.footer-icon{
+    resize: both;
+    height: 83px;
+    margin-right: 8px;
+    margin-top: 2px;
+}
+
+.footer-infomation{
+    margin-left: -140px;
+    margin-bottom: 10px;
+}
+
+.footer-infomation li{
+    list-style: none;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+.slide-content img{
+    resize: both;
+    height: 500px;
+    width: 100vw;
+}
+
+.slide-content{
+    position: absolute;
+    opacity: 0;
+    z-index: 0;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    overflow-x: hidden;
+    transition: ease-in 1s;
+}
+
+.showing{
+    z-index: 1;
+    opacity: 1;
+}
+
+.loginForm{
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+}
+
+.loginForm h1{
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 55px;
+    font-size: 33px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input > input{
+    margin-top:10px;
+    width: 300px;
+    height: 40px;
+    border-bottom: 1px solid #00000021;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: 0;
+}
+
+.loginForm #loginBtn{
+    margin-left: 610px;
+    margin-top: 30px;
+    height: 50px;
+    border-radius: 150px;
+    width: 300px;  
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    background-color: #98defc;
+}
+
+
+.loginForm h4{
+    text-align: center;
+    padding-top: 10px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-right: 10px;
+}
+
+.loginForm_h{
+    display: flex;
+    justify-content: center;
+    padding-left: 25px; 
+    padding-top: 16px;
+    text-decoration: none;
+}
+
+.loginForm_h #h4::after{
+    content: '';
+    border-right: 1px solid #00000052;
+    padding-left: 10px;
+}
+
+.loginForm_h a{
+    color: black;
+    text-decoration: none;
+}
+
+.body-color{
+    background-color: #90caf9;
+    padding: 20px 0px;
+}
+
+.SignUp-wrap{
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+}
+
+.SignUp-wrap .title{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-block-start: 0;
+    color: #1565c0;
+}
+
+.SignUp-wrap .form{
+    width: 100%;
+}
+
+.SignUp-wrap .form .input_field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.SignUp-wrap .form .input_field label{
+    width: 200px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #757575;
+}
+
+.SignUp-wrap .form .input_field .field{
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.SignUp-wrap .form .input_field .custom_select{
+    position: relative;
+    width: 100%;
+    height: 37px;
+}
+
+.SignUp-wrap .form .input_field .custom_select select{
+    border: 1px solid #d5dbd5;
+    appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 100%;
+    padding: 8px 10px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.SignUp-wrap .form .input_field .custom_select::before{
+    content: '';
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    border: 8px solid;
+    pointer-events: none;
+    border-color: #90caf9 transparent transparent transparent;
+}
+
+.SignUp-wrap .form .input_field .field:focus,
+.SignUp-wrap .form .input_field select:focus{
+    border:1px solid #90caf9;
+}
+
+.SignUp-wrap .form .input_field p{
+    font-size: 14px;
+    color: #757575;
+}
+
+.SignUp-wrap .form .input_field .check{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+.SignUp-wrap .form .input_field .check input[type="checkbox"]{
+    position: absolute;
+    top: 0;
+    left: 1px;
+    opacity: 0;
+}
+
+.SignUp-wrap .form .input_field .check .checkmark{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #90caf9;
+    display: block;
+    position: relative;
+}
+
+.SignUp-wrap .form .input_field .check .checkmark::before{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    width: 5px;
+    height: 2px;
+    border: 2px solid;
+    border-color: transparent transparent #fff #fff;
+    transform: rotate(-45deg);
+    display: none;
+}
+
+.SignUp-wrap .form .input_field .check input[type="checkbox"]:checked ~ .checkmark{
+    background: #90caf9;
+}
+
+.SignUp-wrap .form .input_field .check input[type="checkbox"]:checked ~ 
+.checkmark::before{
+    display: block;
+}
+
+.SignUp-wrap .form .input_field .btn{
+    width: 100%;
+    height: 40px;
+    background-color: #90caf9;
+    outline: none;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.SignUp-wrap .form .input_field:last-child{
+    margin-bottom: 0;
+}
+
+.SignUp-wrap .form .input_field .btn:hover{
+    background-color:#b3e5fc;
+}
+
+.info-wrap{
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    padding: 42px 30px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+}
+
+.info-wrap .title{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-block-start: 0;
+    color: #1565c0;
+}
+
+.info-wrap .form{
+    width: 100%;
+}
+
+.info-wrap .form .input_field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.info-wrap .form .input_field #label{
+    width: 200px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #757575;
+}
+
+.info-wrap .form .input_field .field{
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.info-wrap .form .input_field .custom_select{
+    position: relative;
+    width: 100%;
+    height: 37px;
+}
+
+.info-wrap .form .input_field .custom_select select{
+    border: 1px solid #d5dbd5;
+    appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 100%;
+    padding: 8px 10px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.info-wrap .form .input_field .custom_select::before{
+    content: '';
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    border: 8px solid;
+    pointer-events: none;
+    border-color: #90caf9 transparent transparent transparent;
+}
+
+.info-wrap .form .input_field .field:focus,
+.info-wrap .form .input_field select:focus{
+    border:1px solid #90caf9;
+}
+
+.info-wrap .form .input_field p{
+    font-size: 14px;
+    color: #757575;
+}
+
+.info-wrap .form .input_field .check{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+.info-wrap .form .input_field .check input[type="checkbox"]{
+    position: absolute;
+    top: 0;
+    left: 1px;
+    opacity: 0;
+}
+
+.info-wrap .form .input_field .check .checkmark{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #90caf9;
+    display: block;
+    position: relative;
+}
+
+.info-wrap .form .input_field .check .checkmark::before{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    width: 5px;
+    height: 2px;
+    border: 2px solid;
+    border-color: transparent transparent #fff #fff;
+    transform: rotate(-45deg);
+    display: none;
+}
+
+.info-wrap .form .input_field .check input[type="checkbox"]:checked ~ .checkmark{
+    background: #90caf9;
+}
+
+.info-wrap .form .input_field .check input[type="checkbox"]:checked ~ 
+.checkmark::before{
+    display: block;
+}
+
+.info-wrap .form .input_field .btn{
+    width: 100%;
+    height: 40px;
+    background-color: #90caf9;
+    outline: none;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.info-wrap .form .input_field:last-child{
+    margin-bottom: 0;
+}
+
+.info-wrap .form .input_field .btn:hover{
+    background-color:#b3e5fc;
+    transition: 0.5s;
+}
+
+
+.info-wrap .form .input_field .content{
+    font-size: 14px;
+    color: #757575;
+}
+
+.info-wrap .form .input_field #input{
+    width: 145px;
+    font-size: 14px;
+    color: #757575;
+}
+
+.info-wrap .form .input_field #input_w{
+    width: 110px;
+    font-size: 14px;
+    color: #757575;
+}
+
+.info-wrap .form .input_field #phone{
+    width: 110px;
+    font-size: 14px;
+    color: #757575;
+}
+
+.info-wrap .form .input_field .transform{
+    margin-left: 15px;
+    background-color: #90caf9;
+    color: white;
+    outline: none;
+    border: 0;
+    border-radius: 3px;
+    padding: 3px 8px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.info-wrap .form .input_field .transform:hover{
+    background-color: #b3e5fc;
+}
+
+.info-wrap .form .input_field p{
+    margin-right: 38px;
+}
+
+#post{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
